@@ -5,7 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'Dockerfile'
-      - 'app.py'
+      - 'streamlit_app.py'
   pull_request:
     branches: [ main ]
   workflow_dispatch:
